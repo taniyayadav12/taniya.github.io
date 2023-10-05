@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANIYA YADAV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="subheader">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Skillsets.html">SKILLSETS</a></li>
+                <li><a href="Projects.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>MY PROJECTS</h1>
+</section>
+
+
+
+<!------blog content----------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/projects.jpg" alt="">
+            <h2>MY PROJECTS</h2>
+            <p>
+                 <b>Airline Reservation System <br></b>
+                In this project I made an interface for the AIrline Reservation system.I tried creating the basic functions like ticket booking ,checkin ,bag deposit and many more of airline reservation system using C Language
+                in the form of the web appplication online features there.A customer can use the code for checking in, Flight booking, Flight cancellation, Bag deposit and Airline tracking.
+            </p>
+            <br>
+            <p>
+                <b>Tinder Clone <br></b>
+                With the help of the bootcamp with devtown while learning HTML and CSS I tried creating Tinder Clone in the best way possible.It has a user interface with the responsive website.
+            </p>
+            <br>
+            <p>
+                <b>CV Making <br></b>
+                After learning HTML, I wanted to create a web page that consisted of all the HTML Tags and the first thing that came to my mind was creating my own Cover Page,hence I created my cover page using all the HTML codes
+                 and attributes I learnt and tried putti9ng all the information in the web page.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Email">
+                    <textarea rows="5">Your Comment</textarea>
+                    <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Skills Used</h3>
+            <div>
+                <span>HTML</span>
+                <span>100%</span>
+            </div>
+            <div>
+                <span>CSS</span>
+                <span>50%</span>
+            </div>
+            <div>
+                <span>C</span>
+                <span>100%</span>
+            </div>
+            <div>
+                <span>C++</span>
+                <span>75%</span>
+            </div>
+            <div>
+                <span>Python</span>
+                <span>50%</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+    <h4>Connect With Me</h4>
+    <p>Connect with Me on my Social Media Handles</p>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/taniya-yadav-034005217/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/taniyayadav"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/saycyutee/?next=%2F"><i class="fa fa-instagram"></i></a>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Taniya Yadav</p>
+</section>
+
+    
+
+<!---------javascript for toggle menu------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= '0';
+    }
+    function hideMenu(){
+        navLinks.style.right= '-200px';
+    }
+</script>
+
+
+</body>
+</html>
